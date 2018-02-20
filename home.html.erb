@@ -1,0 +1,10 @@
+Guest Information
+
+<hr>
+<% form_for @guest do |f| -%>
+  <%= f.text_field :name %><br/>
+  <%= f.text_field :email %><br/>
+  <%= f.text_field :mobile %><br/>
+  <%= f.text_field :members %><br/>
+  <%= f.submit %>
+<% end %>
